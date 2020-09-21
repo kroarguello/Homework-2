@@ -2,13 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-
 
 
 ul {
@@ -49,10 +50,20 @@ li a:hover {
   }
 
 footer {
-    background-color: #777;
+    background-color: rgb(187, 192, 139);
     padding: 10px;
     text-align: center;
     color: white;
   }
   
+.colorencabezado{
+  color: aqua;
+}
 
+.colorfondo{
+  background-color: wheat;
+}
+
+.colorcuadro{
+  background-color: white;
+}
