@@ -77,3 +77,19 @@ footer {
 .colorcuadro{
   background-color: white;
 }
+
+.imagefloat{
+  float: left;
+  
+}
+
+.lineadeco{
+  border: 2px;
+  border-color: teal;
+  width: 75%;
+ 
+}
+
+.lomasancho{
+  max-width: 500px;
+}
