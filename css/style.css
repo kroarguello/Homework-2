@@ -55,6 +55,16 @@ footer {
     text-align: center;
     color: white;
   }
+
+ .image{
+   width: 300px;
+   height: 300px;
+   float: left;
+ } 
+
+ .parag{
+   text-align: justify;
+ }
   
 .colorencabezado{
   color: aqua;
