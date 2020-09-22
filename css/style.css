@@ -7,7 +7,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+  
 }
 
 ul {
@@ -53,14 +53,15 @@ footer {
     color: white;
     border: 10px;
     margin-top: 10px;
-
-
-    
+    position: fixed;
+    bottom: 0px;
+    left:0px; 
+    width: 100%;   
   }
 
  .image{
-   width: 300px;
-   height: 300px;
+   width: 25%;
+   height: 25%;
    float: left;
  } 
 
@@ -70,8 +71,18 @@ footer {
  }
   
 .colorencabezado{
-  color: rgb(14, 5, 56);
-}
+  color: rgb(18, 6, 68);
+ /* margin-bottom: 0.5em;*/
+  padding: 5px;
+  border-color: rgb(62, 46, 151);
+  border-style: solid;
+  border-bottom-width: 5px;
+  border-top: rgb(151, 155, 150);
+  border-left: white;
+  border-right: white;
+
+
+  }
 
 .colorfondo{
   background-color: rgb(172, 177, 243);
@@ -80,6 +91,7 @@ footer {
 .colorcuadro{
   background-color: white;
   max-width: 400px;
+  
 }
 
 .imagefloat{
@@ -87,13 +99,9 @@ footer {
   
 }
 
-.lineadeco{
-  border: 2px;
-  border-color: teal;
-  width: 75%;
- 
-}
 
 .lomasancho{
   max-width: 500px;
+  float: left;
+
 }
